@@ -1,0 +1,1 @@
+from .request import (Psyduck, Seadra, Tentacool, Shellder, Gyarados)
