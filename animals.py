@@ -13,11 +13,11 @@ from slithering import(Ekans, Charmander, Arbok, Bulbasaur, Squirtle)
 # self.walking = True
 
 # the petting area
-leopaws = Eevee("Leopaws", "Eevee")
-willows = Ninetales("Willows", "Ninetales")
-firefox = Vulpix("Firefox", "Vulpix")
-kitKat = Meowth("KitKat", "Meowth")
-baymax = Snorlax("Baymax", "Snorlax")
+leopaws = Eevee("Leopaws", "Eevee", "midday")
+willows = Ninetales("Willows", "Ninetales", "morning")
+firefox = Vulpix("Firefox", "Vulpix", "morning")
+kitKat = Meowth("KitKat", "Meowth", "midday")
+baymax = Snorlax("Baymax", "Snorlax", "afternoon")
 
 # the pond
 psy = Psyduck("Psy", "Psyduck")
@@ -33,3 +33,5 @@ cobra = Arbok("Cobra", "Arbok")
 bulbs = Bulbasaur("Bulbs", "Bulbasaur")
 squirt = Squirtle("Squirt", "Squirtle")
 print(gerald)
+print(baymax)
+print(f'{baymax.name} the {baymax.species} is available to pet during the {baymax.shift} shift.')
