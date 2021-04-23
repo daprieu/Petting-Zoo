@@ -1,0 +1,1 @@
+from .request import(Ekans, Charmander, Arbok, Bulbasaur, Squirtle)

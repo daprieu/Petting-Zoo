@@ -1,0 +1,1 @@
+from .request import (Eevee, Ninetales, Vulpix, Meowth, Snorlax)
