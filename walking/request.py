@@ -3,7 +3,7 @@ from datetime import date
 
 class Eevee:
 
-    def __init__(self, name, species, shift):
+    def __init__(self, name, species, shift, food):
         # Establish the properties of each animal
         # with a default value
         self.name = name
@@ -11,12 +11,14 @@ class Eevee:
         self.shift = shift
         self.date_added = date.today()
         self.walking = True
+        self.food = food
 
-
+    def feed(self):
+      print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
 
 class Ninetales:
 
-    def __init__(self, name, species, shift ):
+    def __init__(self, name, species, shift, food):
         # Establish the properties of each animal
         # with a default value
         self.name = name
@@ -24,10 +26,14 @@ class Ninetales:
         self.shift = shift
         self.date_added = date.today()
         self.walking = True
+        self.food = food
+
+    def feed(self):
+      print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
 
 class Vulpix:
 
-    def __init__(self, name, species, shift):
+    def __init__(self, name, species, shift, food):
         # Establish the properties of each animal
         # with a default value
         self.name = name
@@ -35,12 +41,14 @@ class Vulpix:
         self.shift = shift
         self.date_added = date.today()
         self.walking = True
+        self.food = food
 
-
+    def feed(self):
+      print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
 
 class Meowth:
 
-    def __init__(self, name, species, shift):
+    def __init__(self, name, species, shift, food):
         # Establish the properties of each animal
         # with a default value
         self.name = name
@@ -48,12 +56,14 @@ class Meowth:
         self.shift = shift
         self.date_added = date.today()
         self.walking = True
+        self.food = food
 
-
+    def feed(self):
+      print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
 
 class Snorlax:
 
-    def __init__(self, name, species, shift):
+    def __init__(self, name, species, shift, food):
         # Establish the properties of each animal
         # with a default value
         self.name = name
@@ -61,5 +71,7 @@ class Snorlax:
         self.shift = shift
         self.date_added = date.today()
         self.walking = True
+        self.food = food
 
-
+    def feed(self):
+      print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
